@@ -16,7 +16,8 @@ playwright install
 
 ### 在终端启动mcp与搜索api
 ```bash
-python echovalley/web-fetch-mcp/server.py
+cd echovalley/web-fetch-mcp
+python server.py
 ```
 
 ### 配置LLM API
@@ -24,8 +25,10 @@ python echovalley/web-fetch-mcp/server.py
 然后打开echovalley/config.toml配置LLM的BASE_URL等信息
 
 ### 使用echovalley
+再打开另一个终端
 ```bash
-python echovalley/echovalley.py
+cd echovalley
+python echovalley.py
 ```
 
 ## 特别声明
